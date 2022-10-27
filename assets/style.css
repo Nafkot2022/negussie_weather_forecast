@@ -13,14 +13,25 @@
 	color:aliceblue;
 	margin:20px;
 	padding:15px;
+	position:relative;
 }
 .container{
 	display: flex;
-	border-style: solid;
-	border-color:black;
-	border-width: 1px;
+	width:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin:auto;
 }
 
+.right-container{
+padding-top: 1.5rem;
+} 
+
+#current-weather{
+	padding-left: 15px;
+	border-radius:.25rem;
+	border:1px solid #dee2e6;
+}
 
 #cityinput{
 	overflow: visible;
@@ -38,22 +49,14 @@
 	border-radius: 20px;
 } 
 
-.weather-container{
-align-items: center;
-text-align: center;
-display: flex;
+#fiveDayForcastUl{
+flex-direction: column;
 border-style: solid;
-border-color:black;
-border-width: 1px;
+border-color: #34aad5;
 width: 100%;
-}
+} 
 
-.flex-item{
-	height: 20vh;
-	width: 50%;
-	margin: 5px;
-	padding: 5px;
-	font-size: 12px;
-	align-items: right;
-	background-color:#B9D9EB;
+#weather-card{
+	border-style: solid;
+	border-color: black;
 }
